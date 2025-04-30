@@ -1,7 +1,7 @@
 # A/B Email Campaign Test: Open, Click & Purchase Analysis
 
 ## Project Overview
-This project simulates and analyzes an A/B test of an email marketing campaign using Python and prepares the dataset for integration into BI dashboards (e.g., Tableau, Power BI). The analysis compares two groups — control (A) and test (B) — across engagement metrics such as open rate, click rate, and purchase rate.
+This project simulates and analyzes an A/B test of an email marketing campaign using Python and prepares the dataset for integration into Tableau. The analysis compares two groups - control (A) and test (B) across engagement metrics such as open rate, click rate, and purchase rate.
 
 The goal is to demonstrate statistical reasoning, performance comparison, and BI-readiness in a business context.
 
@@ -22,11 +22,10 @@ Conversion funnel: `open → click → purchase`, with Group B having slightly i
 ## Key Metrics
 | Metric         | Group A (Control) | Group B (Test) | Lift        |
 |----------------|-------------------|----------------|-------------|
-| Open Rate      | e.g. 35%          | 42%            | +7%         |
-| Click Rate     | e.g. 18%          | 25%            | +7%         |
-| Purchase Rate  | e.g. 7%           | 11%            | +4%         |
+| Open Rate      | 31.1%             | 39.0%          | +7.88%      |
+| Click Rate     | 7.88%             | 8.88%          | +1%         |
+| Purchase Rate  | 1.24  %           | 1.16%          | -0.09%      |
 
-*Note: Actual values generated and printed via script.*
 
 ---
 
@@ -42,12 +41,23 @@ AB_Email_Campaign_Test/
 ---
 
 ## BI Dashboard 
+
+Explore the interactive Tableau dashboard here:  
+👉 [A/B Testing Campaign Performance – Tableau Public](https://public.tableau.com/app/profile/mariia.maslova/viz/ABTestingCampaingPerformance/Dashboard1)
+
 Tableau dashboard includes:
 - Group filter (A/B)
 - KPI cards: Open Rate, Click Rate, Purchase Rate
 - Funnel bar chart
 - Lift metrics
-- Conversion breakdown table
+- Сomparison of A and B by stages
+
+### ✨ Key Insights from the Dashboard:
+
+- **Group B** achieved a significantly higher **Open Rate** of **44.8%**, compared to **36.8%** in Group A.  
+- **Click Rate** was also better in Group B (**5.6%**) than in Group A (**4.8%**), indicating stronger engagement overall.
+- **Purchase Rate** did not improved in Group B (**2.9%** vs **2.0%**), suggesting that the email modifications didn't show the growth in purchase.
+- The **vertical funnel visualizations** show user drop-off at each stage clearly and effectively.
 
 ---
 
