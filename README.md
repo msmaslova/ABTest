@@ -54,9 +54,9 @@ Tableau dashboard includes:
 
 ### ✨ Key Insights from the Dashboard:
 
-- **Group B** achieved a significantly higher **Open Rate** of **44.8%**, compared to **36.8%** in Group A.  
-- **Click Rate** was also better in Group B (**5.6%**) than in Group A (**4.8%**), indicating stronger engagement overall.
-- **Purchase Rate** did not improved in Group B (**2.9%** vs **2.0%**), suggesting that the email modifications didn't show the growth in purchase.
+- **Group B** achieved a significantly higher **Open Rate** of **39%**, compared to **31%** in Group A.  
+- **Click Rate** was also better in Group B (**8.88%**) than in Group A (**7.88%**), indicating stronger engagement overall.
+- **Purchase Rate** did not improved in Group B (**1.16%** vs **1.24%**), suggesting that the email modifications didn't show the growth in purchase.
 - The **vertical funnel visualizations** show user drop-off at each stage clearly and effectively.
 
 ---
